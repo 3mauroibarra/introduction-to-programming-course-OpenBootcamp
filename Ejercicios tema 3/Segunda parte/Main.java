@@ -1,12 +1,18 @@
-public class Coche {
+public class Main {
   public static void main(String[] args) {
-    suma(5, 2, 3);
+    Coche miCoche = new Coche ();
+    miCoche.AgregarPuerta();
+    System.out.println(miCoche.puertas);
 }
 
-  public static void suma(int a, int b, int c) {
-    int resultado;
-    resultado = a + b + c;
-    
-    System.out.println(resultado);
+  public static int suma(int a, int b) {
+    return a + b;
 }
+}
+
+class Coche {
+  public int puertas = 2;
+  public void AgregarPuerta () {
+    this.puertas++;
+  }
 }
