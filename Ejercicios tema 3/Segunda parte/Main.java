@@ -4,13 +4,13 @@ public class Main {
     miCoche.AgregarPuerta();
     miCoche.AgregarPuerta();
     System.out.println(miCoche.puertas);
-}
+  }
 
   public static int suma(int a, int b, int c) {
     int resultado;
     return a + b + c;
     System.out.println(resultado);
-}
+  }
 }
 
 class Coche {
