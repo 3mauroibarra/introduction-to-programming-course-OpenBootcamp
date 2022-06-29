@@ -1,2 +1,2 @@
-# Curso de introducción a la programación - OpenBootcamp
-Ejercicios de Curso de Introducción a la programación.
+# Introduction to Programming Course - OpenBootcamp
+Course Exercises Introduction to programming.
